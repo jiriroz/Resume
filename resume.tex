@@ -23,10 +23,12 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
 
 \name{Jiri Roznovjak} % Your name
 \address{github.com/jirkaroz \\ linkedin.com/in/jroznovjak} % Your address
-\address{(508).667.6394 \\ jroznovjak@clarku.edu} % Your phone number and email
+\address{(508).667.6394 \\ jroznovjak@clarku.edu } % Your phone number and email
 %original \address{(508)~$\cdot$~667~$\cdot$~6394 \\ jroznovjak@clarku.edu} 
 
 \begin{document}
@@ -37,10 +39,14 @@
 
 \begin{rSection}{Education}
 
+\begin{multicols}{2}
+
 {\bf Clark University} \hfill {\em expected May 2018} \\ 
-Bachelor's in Computer Science \& Mathematics \smallskip \\
-GPA: 3.96/4.0 \\
-Relevant Coursework: Data Structures, Algorithms, Analysis of Programming Languages, Automata Theory, Theory of Computation, Probability and Statistics
+Bachelor's in Computer Science \& Mathematics \\
+GPA: 3.96/4.0  \smallskip \\
+\textbf{Coursework} \\ Algorithms, Analysis of Programming Languages, Data Structures, Automata Theory, Theory of Computation, Statistics
+
+\end{multicols}
 
 \end{rSection}
 
@@ -51,7 +57,6 @@ Relevant Coursework: Data Structures, Algorithms, Analysis of Programming Langua
 \begin{rSection}{Experience}
 
 \begin{rSubsection}{Boston University}{May 2015 - July 2015}{Research Assistant}{Boston, MA}
-\item Worked with the computer vision based program Camera Mouse.
 \item Contributed to a grant proposal for the National Science Foundation.
 \item Created a poster \emph{Predictive Link Following for Accessible Web Browsing} that was accepted to the ASSETS conference.
 \item Started to work with first person vision systems, continuing this work at Clark University.
@@ -67,7 +72,7 @@ Relevant Coursework: Data Structures, Algorithms, Analysis of Programming Langua
 %------------------------------------------------
 
 \begin{rSubsection}{Personal Projects \& Hackathons}{December 2013 - Present}{}{}
-\item Created a computer vision autostereoscopy program using eye tracking with Python and OpenCV.
+\item Created a "false 3D" computer vision program using eye tracking with Python and OpenCV.
 \item Created a dynamic tutor selection for theknowledgeroundtable.com using jQuery and node.js.
 \item Programmed a data visualization framework to process and visualize data from CIA World Factbook using Python and matplotlib.
 \item Created numerous educational physics demonstrations using three.js, processing.js and paper.js.
@@ -89,9 +94,9 @@ Relevant Coursework: Data Structures, Algorithms, Analysis of Programming Langua
 \begin{rSection}{Technical Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Progamming Languages & Python, JavaScript, Java, C, MATLAB, Scheme, LaTeX \\
-Databases & MySQL \\
-Tools & Git, Vim, Unit Testing, Microsoft Office
+Progamming Languages & Python, Java, JavaScript, C, MATLAB, Scheme, LaTeX \\
+Databases & MySQL, MongoDB \\
+Technologies, Tools & Git, Vim, Unit Testing, OpenCV, Hadoop, MapReduce
 \end{tabular}
 
 \end{rSection}
@@ -102,7 +107,7 @@ Tools & Git, Vim, Unit Testing, Microsoft Office
 
 \begin{rSection}{Relevant Interests}
 
-Machine Learning, Computer Vision, Deep Learning, Data Analysis, Algorithms, Theoretical Computer Science. \\
+Machine Learning, Computer Vision, Deep Learning, Parallel Computing \\
 Treasurer at the Computer Science Club.
 
 \end{rSection}
