@@ -65,10 +65,18 @@ Theory of Computation, Automata Theory
 
 %------------------------------------------------
 
+\begin{rSubsection}{Projects \& Hackathons}{December 2013 - Present}{}{}
+\item Created a "false 3D" computer vision program using eye tracking with Python and OpenCV.
+\item Built a deep learning art-generating program using caffe and Python.
+\item Created several educational physics demonstrations using three.js, processing.js and paper.js.
+\end{rSubsection}
+
+%-------------------------------------------------
+
 \begin{rSubsection}{Boston University}{May 2015 - July 2015}{Research Assistant}{Boston, MA}
 \item Created a mathematical model to analyze and predict mouse movements.
-\item Paper \emph{Predictive Link Following for Accessible Web Browsing} accepted to the ASSETS conference.
 \item Contributed to a grant proposal for the National Science Foundation.
+\item Paper \emph{Predictive Link Following for Accessible Web Browsing} accepted to the ASSETS conference.
 \end{rSubsection}
 
 %------------------------------------------------
@@ -76,14 +84,6 @@ Theory of Computation, Automata Theory
 \begin{rSubsection}{Academic Technology Services, Clark University}{September 2015 - Present}{Academic Technology Intern}{Clark University, Worcester, MA}
 \item Managing University's learning platform Moodle.
 \item Working on a PHP and JavaScript codebase, using Git with Bitbucket.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Projects \& Hackathons}{December 2013 - Present}{}{}
-\item Created a "false 3D" computer vision program using eye tracking with Python and OpenCV.
-\item Built a deep learning art-generating program with caffe and Python.
-\item Created several educational physics demonstrations with JavaScript using three.js and processing.js.
 \end{rSubsection}
 
 %------------------------------------------------
