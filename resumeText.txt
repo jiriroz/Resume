@@ -1,0 +1,66 @@
+
+Jiri Roznovjak
+
+github.com/jirkaroz \ linkedin.com/in/jroznovjak
+(508).667.6394 \ jroznovjak@clarku.edu
+
+
+Education
+
+Clark University
+expected December 2017
+Bachelor's in Computer Science and Mathematics
+GPA: 3.9/4.0
+
+Coursework
+Algorithms, Design and Analysis of Algorithms
+Analysis of Programming Languages
+Probability and Statistics, Topics in Statistics
+Theory of Computation, Automata Theory
+
+
+Experience
+
+Boston University
+May 2015 - July 2015
+Research Assistant
+Boston, MA
+- Created a mathematical model to analyze and predict mouse movements.
+- Paper Predictive Link Following for Accessible Web Browsing accepted to the ASSETS conference.
+- Contributed to a grant proposal for the National Science Foundation.
+
+Academic Technology Services, Clark University
+September 2015 - Present
+Academic Technology Intern
+Clark University, Worcester, MA
+- Managing University's learning platform Moodle.
+- Working on a PHP and JavaScript codebase, using Git with Bitbucket.
+
+Projects and Hackathons
+- Created a "false 3D" computer vision program using eye tracking with Python and OpenCV.
+- Built a deep learning art-generating program with caffe and Python.
+- Created several educational physics demonstrations with JavaScript using three.js and processing.js.
+
+Clark University, Graduate School of Management
+June 2015 - August 2015
+Undergraduate Assistant
+Clark University, Worcester, MA
+- Wrote programs to perform data analysis on an HPC cluster.
+- Analyzed social networks using MATLAB and Python.
+
+Clark University, Department of Computer Science
+August 2015 - Present
+Teaching Assistant
+Clark University, Worcester, MA
+- Fall 2015: CS120 - Introduction to Computer Science.
+- Spring 2016: CS121 - Data Structures.
+
+Technical Skills
+
+Programming Languages:
+Python, Java, JavaScript, C, MATLAB, LaTeX
+Databases:
+MySQL, SQLite, MongoDB
+Technologies, Tools:
+Git, Linux, Bash, MapReduce, Unit Testing
+

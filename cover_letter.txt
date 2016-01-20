@@ -1,0 +1,19 @@
+Hello,
+
+my name is Jiri Roznovjak and I am a Computer Science and Mathematics student at Clark University. I would like to be a part of your team during the summer of 2016 as a Software Engineering Intern.
+
+I have a passion for technology and education. Currently I work as an Academic Technology Intern where I manage the University's learning platform Moodle, working on a PHP and JavaScript codebase. This is also my second semester as a teaching assistant; this semester I teach Data Structures in Java. I love trying to convey complex ideas to other people.
+
+Last summer I worked as a Research Assistant at Boston University. There I researched Human-Computer Interaction, analyzing mouse movement data. I ended up publishing a small paper. Over the summer I also worked as an assistant to a professor at Clark with whom I analyzed social networks using Python and MATLAB. 
+
+I love finding patterns in data. I am interested in Machine Learning and Computer Vision; some notable projects I have done are transforming photos into art using the caffe deep learning framework and an eye tracking program that creates a false perception of 3D.
+
+I work mostly in Python, Java and JavaScript; I have experience with MySQL and MongoDB databases. I am proficient in Linux.
+
+I hope you will consider my application.
+
+Thank you for your time.
+
+Best,
+
+Jiri Roznovjak
