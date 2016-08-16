@@ -24,13 +24,17 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{multicol}
+\usepackage{vwcol}  
+\usepackage{amsmath}
 \setlength{\columnsep}{1cm}
 \usepackage{color}
-\definecolor{mygray}{gray}{0.2}
+\usepackage{hyperref}
+
+\newcommand{\mybullet}[0]{\textcolor{mygray}{$\bullet$} }
 
 \name{Jiri Roznovjak} % Your name
-\address{github.com/jirkaroz \\ linkedin.com/in/jroznovjak} % Your address
-\address{(508).667.6394 \\ jroznovjak@clarku.edu } % Your phone number and email
+\address{\href{https://github.com/jiriroz}{github.com/jiriroz} \\ \href{https://www.linkedin.com/in/jroznovjak}{linkedin.com/in/jroznovjak}} % Your address
+\address{\href{mailto:jiri.roznovjak@gmail.com}{jiri.roznovjak@gmail.com} \\ (508).667.6394 } % Your phone number and email
 %original \address{(508)~$\cdot$~667~$\cdot$~6394 \\ jroznovjak@clarku.edu} 
 
 \begin{document}
@@ -41,19 +45,17 @@
 
 \begin{rSection}{Education}
 
-\begin{multicols}{2}
+\begin{vwcol}[widths={0.45, 0.55}, indent=0pt, rule=0pt]
+\textcolor{jobcolor}{\textbf{Clark University}}\\
+\textcolor{mygray}{expected May 2018} \\
+B.A. in Computer Science \& Mathematics \\
+GPA: 3.83/4.0  \smallskip \\
 
-{\bf Clark University}\\
-{\textcolor{mygray}{\textbf{expected December 2017}}} \\ 
-Bachelor's in Computer Science \& Mathematics \\
-GPA: 3.9/4.0  \smallskip \\
-\vfill
-\columnbreak
-\textbf{Coursework} \\ \mbox{Algorithms, Design and Analysis of Algorithms}\\
-\mbox{Analysis of Programming Languages}\\ Probability and Statistics, Topics in Statistics\\
-Theory of Computation, Automata Theory
+\textcolor{jobcolor}{\textbf{Coursework}} \\ \mbox{Design and Analysis of Algorithms \mybullet Algorithms}\\
+\mbox{Analysis of Programming Languages}\\ Probability and Statistics \mybullet Topics in Statistics\\
+Theory of Computation \mybullet Automata Theory
 
-\end{multicols}
+\end{vwcol}
 
 \end{rSection}
 
@@ -65,40 +67,55 @@ Theory of Computation, Automata Theory
 
 %------------------------------------------------
 
-\begin{rSubsection}{Boston University}{May 2015 - July 2015}{Research Assistant}{Boston, MA}
-\item Created a mathematical model to analyze and predict mouse movements.
-\item Paper \emph{Predictive Link Following for Accessible Web Browsing} accepted to the ASSETS conference.
-\item Contributed to a grant proposal for the National Science Foundation.
+\begin{rSubsection}{Boston University}{June 2016 - August 2016}{Research Assistant}{Boston, MA}
+\item Developed machine learning models using convolutional neural networks.
+\item Implemented image generation models using Python with the Caffe library.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Alden Research Laboratory, Inc.}{January 2016 - Present}{Web Development Intern}{Holden, MA}
+\item Developing full-stack solutions using PHP and JavaScript.
+\item Performed search engine optimization of the company's website.
 \end{rSubsection}
 
 %------------------------------------------------
 
 \begin{rSubsection}{Academic Technology Services, Clark University}{September 2015 - Present}{Academic Technology Intern}{Clark University, Worcester, MA}
 \item Managing University's learning platform Moodle.
-\item Working on a PHP and JavaScript codebase, using Git with Bitbucket.
+\item Working on a PHP and JavaScript codebase, using git with Gitlab.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Projects \& Hackathons}{December 2013 - Present}{}{}
-\item Created a "false 3D" computer vision program using eye tracking with Python and OpenCV.
-\item Built a deep learning art-generating program with caffe and Python.
-\item Created several educational physics demonstrations with JavaScript using three.js and processing.js.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Clark University, Graduate School of Management}{June 2015 - August 2015}{Undergraduate Assistant}{Clark University, Worcester, MA}
-\item Wrote programs to perform data analysis on an HPC cluster.
-\item Analyzed social networks using MATLAB and Python.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Clark University, Department of Computer Science}{August 2015 - Present}{Teaching Assistant}{Clark University, Worcester, MA}
+\begin{rSubsection}{Department of Computer Science, Clark University}{August 2015 - Present}{Teaching Assistant}{Clark University, Worcester, MA}
 \item Fall 2015: CS120 - Introduction to Computer Science.
 \item Spring 2016: CS121 - Data Structures.
 \end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Boston University}{May 2015 - July 2015}{Research Assistant}{Boston, MA}
+\item Created a mathematical model to analyze and predict mouse movements.
+\item Paper \emph{Predictive Link Following for Accessible Web Browsing} accepted to the ASSETS conference.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%       HONORS & AWARDS
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Honors \& Awards}
+
+\begin{list}{$\boldsymbol{\cdot}$}{\leftmargin=0em}
+\sectionskip
+\itemsep -0.5em \vspace{-0.5em}
+\item 2nd place in the CCSCNE 2016 Programming Contest out of 38 teams.
+\item Recipient of the Sherman Fairchild Summer Fellowship for undergraduate research.
+\end{list}
 
 \end{rSection}
 
@@ -106,12 +123,11 @@ Theory of Computation, Automata Theory
 %	TECHNICAL SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Technical Skills}
+\begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Programming Languages & Python, Java, JavaScript, C, MATLAB, LaTeX \\
-Databases & MySQL, SQLite, MongoDB \\
-Technologies, Tools & Git, Linux, Bash, MapReduce, Unit Testing
+\textcolor{jobcolor}{Programming} & Python, Java, JavaScript, C, PHP, Bash, LaTeX \\
+\textcolor{jobcolor}{Other} & Git, Linux, Bash, MySQL, Machine Learning, Deep Neural Networks
 \end{tabular}
 
 \end{rSection}
