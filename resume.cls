@@ -28,8 +28,8 @@
 \usepackage{color}
 \usepackage{amsmath}
 \definecolor{headingcolor}{gray}{0.4}
-\definecolor{mygray}{gray}{0.25}
-\definecolor{jobcolor}{gray}{0.15}
+\definecolor{mygray}{gray}{0.35}
+\definecolor{jobcolor}{gray}{0.2}
 \definecolor{namecolor}{gray}{0.15}
 
 \pagestyle{empty} % Suppress page numbers
@@ -126,6 +126,7 @@
   {\em \textcolor{mygray}{#3}} \hfill {\em \textcolor{mygray}{#4}} % Italic job title and location
   }\smallskip
   \begin{list}{$\boldsymbol{\cdot}$}{\leftmargin=0em} % \cdot used for bullets, no indentation
+    \color{jobcolor}
    \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
   }{
   \end{list}
